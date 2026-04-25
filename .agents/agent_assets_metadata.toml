@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "7vfPadM3-d1CCdwXdb4df"
+uri = "file://artifacts/attendance-app/assets/images/icon.png"
+type = "image"
+title = "attendance app icon"

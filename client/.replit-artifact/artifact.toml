@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "Attendance Manager"
+version = "1.0.0"
+id = "client"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 19416
+
+[services.development]
+run = "pnpm --filter @workspace/attendance-app run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/attendance-app", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/attendance-app", "run", "serve" ]
+
+[services.env]
+PORT = "19416"
+BASE_PATH = "/"

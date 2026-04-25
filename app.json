@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "fec67f37-aa09-4574-8a3d-e55aacd638c3"
+      }
+    },
+    "android": {
+      "package": "com.arpitk545.workspace"
+    }
+  }
+}
